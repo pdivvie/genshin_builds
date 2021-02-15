@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GenshinBuilds</string>
+    <string name="albedo">Albedo</string>
+    <string name="amber">Amber</string>
+    <string name="barbara">Barbara</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
