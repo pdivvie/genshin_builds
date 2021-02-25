@@ -5,4 +5,15 @@
     <string name="barbara">Barbara</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="noblesse_oblige">Noblesse Oblige</string>
+    <string name="atk">ATK%</string>
+    <string name="anemo_dmg">Anemo DMG</string>
+    <string name="crit_dmg">CRIT DMG</string>
+    <string name="archaic_petra">Archaic Petra</string>
+    <string name="_2_piece">2 Piece</string>
+    <string name="archaicpetraflower">ArchaicPetraFlower</string>
+    <string name="hourglass">hourglass</string>
+    <string name="crown">crown</string>
+    <string name="cup">cup</string>
+    <string name="noblesseobligeflower">noblesseObligeFlower</string>
 </resources>

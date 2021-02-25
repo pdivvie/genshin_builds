@@ -3,24 +3,23 @@ package com.devilliersdesigns
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.devilliersdesigns.fragments.adapters.ViewPagerAdapter
-import com.devilliersdesigns.fragments.al_build_1_fragment
-import com.devilliersdesigns.fragments.al_build_2_fragment
+import com.devilliersdesigns.fragments.ba_build_1
+import com.devilliersdesigns.fragments.bei_build_1
 import kotlinx.android.synthetic.main.activity_albedo.*
 
-class Albedo : AppCompatActivity() {
+class Beidou : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_albedo)
+        setContentView(R.layout.activity_beidou)
         val actionBar = supportActionBar
-        "Albedo".also { actionBar!!.title = it }
+        "Beidou".also { actionBar!!.title = it }
         actionBar?.setDisplayHomeAsUpEnabled(true)
         setUpTabs()
     }
 
     private fun setUpTabs() {
         val adapter = ViewPagerAdapter(supportFragmentManager)
-        adapter.addFragment(al_build_1_fragment(), "Build 1")
-        adapter.addFragment(al_build_2_fragment(), "Build 2")
+        adapter.addFragment(bei_build_1(), "Build 1")
         viewPager.adapter = adapter
         tabs.setupWithViewPager(viewPager)
     }
