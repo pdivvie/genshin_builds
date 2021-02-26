@@ -100,6 +100,61 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Noelle::class.java)
             startActivity(intent)
         }
+        var qiqiBtn = findViewById<Button>(R.id.qiqiBtn)
+        qiqiBtn.setOnClickListener {
+            val intent = Intent(this, Qiqi::class.java)
+            startActivity(intent)
+        }
+        var razorBtn = findViewById<Button>(R.id.razorBtn)
+        razorBtn.setOnClickListener {
+            val intent = Intent(this, Razor::class.java)
+            startActivity(intent)
+        }
+        var sucroseBtn = findViewById<Button>(R.id.sucroseBtn)
+        sucroseBtn.setOnClickListener {
+            val intent = Intent(this, Sucrose::class.java)
+            startActivity(intent)
+        }
+        var tartagliaBtn = findViewById<Button>(R.id.tartagliaBtn)
+        tartagliaBtn.setOnClickListener {
+            val intent = Intent(this, Tartaglia::class.java)
+            startActivity(intent)
+        }
+        var travelerBtn = findViewById<Button>(R.id.travelerBtn)
+        travelerBtn.setOnClickListener {
+            val intent = Intent(this, Traveler::class.java)
+            startActivity(intent)
+        }
+        var ventiBtn = findViewById<Button>(R.id.ventiBtn)
+        ventiBtn.setOnClickListener {
+            val intent = Intent(this, Venti::class.java)
+            startActivity(intent)
+        }
+        var xianglingBtn = findViewById<Button>(R.id.xianglingBtn)
+        xianglingBtn.setOnClickListener {
+            val intent = Intent(this, Xiangling::class.java)
+            startActivity(intent)
+        }
+        var xiaoBtn = findViewById<Button>(R.id.xiaoBtn)
+        xiaoBtn.setOnClickListener {
+            val intent = Intent(this, Xiao::class.java)
+            startActivity(intent)
+        }
+        var xinqiuBtn = findViewById<Button>(R.id.xinqiuBtn)
+        xinqiuBtn.setOnClickListener {
+            val intent = Intent(this, Xinqiu::class.java)
+            startActivity(intent)
+        }
+        var xinyanBtn = findViewById<Button>(R.id.xinyanBtn)
+        xinyanBtn.setOnClickListener {
+            val intent = Intent(this, Xinyan::class.java)
+            startActivity(intent)
+        }
+        var zhongliBtn = findViewById<Button>(R.id.zhongliBtn)
+        zhongliBtn.setOnClickListener {
+            val intent = Intent(this, Zhongli::class.java)
+            startActivity(intent)
+        }
     }
 
 }
