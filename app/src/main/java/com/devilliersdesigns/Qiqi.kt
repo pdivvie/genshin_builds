@@ -3,8 +3,6 @@ package com.devilliersdesigns
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.devilliersdesigns.fragments.adapters.ViewPagerAdapter
-import com.devilliersdesigns.fragments.al_build_1_fragment
-import com.devilliersdesigns.fragments.al_build_2_fragment
 import com.devilliersdesigns.fragments.qiqi_build_1
 import kotlinx.android.synthetic.main.activity_albedo.*
 
@@ -20,7 +18,7 @@ class Qiqi : AppCompatActivity() {
 
     private fun setUpTabs() {
         val adapter = ViewPagerAdapter(supportFragmentManager)
-        adapter.addFragment(qiqi_build_1(), "Build 1")
+        adapter.addFragment(qiqi_build_1(), "Cryo Support")
         viewPager.adapter = adapter
         tabs.setupWithViewPager(viewPager)
     }

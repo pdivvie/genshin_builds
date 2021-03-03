@@ -18,7 +18,7 @@ class Amber : AppCompatActivity() {
 
     private fun setUpTabs() {
         val adapter = ViewPagerAdapter(supportFragmentManager)
-        adapter.addFragment(am_build_1(), "Build 1")
+        adapter.addFragment(am_build_1(), "Pyro DPS")
         viewPager.adapter = adapter
         tabs.setupWithViewPager(viewPager)
     }

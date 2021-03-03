@@ -3,7 +3,6 @@ package com.devilliersdesigns
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.devilliersdesigns.fragments.adapters.ViewPagerAdapter
-import com.devilliersdesigns.fragments.ba_build_1
 import com.devilliersdesigns.fragments.bei_build_1
 import kotlinx.android.synthetic.main.activity_albedo.*
 
@@ -19,7 +18,7 @@ class Beidou : AppCompatActivity() {
 
     private fun setUpTabs() {
         val adapter = ViewPagerAdapter(supportFragmentManager)
-        adapter.addFragment(bei_build_1(), "Build 1")
+        adapter.addFragment(bei_build_1(), "Electro DPS")
         viewPager.adapter = adapter
         tabs.setupWithViewPager(viewPager)
     }

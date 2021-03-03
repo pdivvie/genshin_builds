@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1d1f29"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -32,174 +33,203 @@
                 android:id="@+id/albedoBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="@string/albedo" />
 
             <Button
                 android:id="@+id/amberBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="@string/amber" />
 
             <Button
                 android:id="@+id/barbaraBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="@string/barbara" />
 
             <Button
                 android:id="@+id/beidouBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Beidou" />
 
             <Button
                 android:id="@+id/bennetBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Bennet" />
 
             <Button
                 android:id="@+id/chongyunBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Chongyun" />
 
             <Button
                 android:id="@+id/dilucBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Diluc" />
 
             <Button
                 android:id="@+id/dionaBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Diona" />
 
             <Button
                 android:id="@+id/fischlBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Fischl" />
 
             <Button
                 android:id="@+id/ganyuBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Ganyu" />
 
             <Button
                 android:id="@+id/jeanBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Jean" />
 
             <Button
                 android:id="@+id/kaeyaBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Kaeya" />
 
             <Button
                 android:id="@+id/keqingBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Keqing" />
 
             <Button
                 android:id="@+id/kleeBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Klee" />
 
             <Button
                 android:id="@+id/lisaBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Lisa" />
 
             <Button
                 android:id="@+id/monaBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Mona" />
 
             <Button
                 android:id="@+id/ningguangBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Ningguang" />
 
             <Button
                 android:id="@+id/noelleBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Noelle" />
 
             <Button
                 android:id="@+id/qiqiBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Qiqi" />
 
             <Button
                 android:id="@+id/razorBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Razor" />
 
             <Button
                 android:id="@+id/sucroseBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Sucrose" />
 
             <Button
                 android:id="@+id/tartagliaBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Tartaglia" />
 
             <Button
                 android:id="@+id/travelerBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Traveler" />
 
             <Button
                 android:id="@+id/ventiBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Venti" />
 
             <Button
                 android:id="@+id/xianglingBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Xiangling" />
 
             <Button
                 android:id="@+id/xiaoBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Xiao" />
 
             <Button
                 android:id="@+id/xinqiuBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Xinqiu" />
 
             <Button
                 android:id="@+id/xinyanBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Xinyan" />
 
             <Button
                 android:id="@+id/zhongliBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#222431"
                 android:text="Zhongli" />
         </LinearLayout>
     </ScrollView>

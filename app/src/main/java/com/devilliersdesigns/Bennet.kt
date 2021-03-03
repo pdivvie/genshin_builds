@@ -19,7 +19,7 @@ class Bennet : AppCompatActivity() {
 
     private fun setUpTabs() {
         val adapter = ViewPagerAdapter(supportFragmentManager)
-        adapter.addFragment(ben_build_1(), "Build 1")
+        adapter.addFragment(ben_build_1(), "Pyro Support")
         viewPager.adapter = adapter
         tabs.setupWithViewPager(viewPager)
     }
